@@ -15,8 +15,8 @@ buildTop = (user) => {
 
     // update urls
     updateLink('githubUrl', user['html_url'])
-    updateLink('websiteUrl', user['blog'])
-    updateLink('linkedinUrl', 'https://www.linkedin.com/in/mike-pete/')
+    //updateLink('websiteUrl', user['blog'])
+    updateLink('linkedinUrl', 'https://www.linkedin.com/in/aj-ferraro-165a881a2/')
 }
 
 buildPage = (repos) => {
@@ -68,14 +68,14 @@ buildPage = (repos) => {
 }
 
 async function getUser(){
-    let api = 'https://api.github.com/users/kid-on-github'
+    let api = 'https://api.github.com/users/HHAJ98'
     //api = './user.json'
     let user = await fetch(api)
     buildTop(await user.json())
 }
 
 async function getRepos(){
-    let api = 'https://api.github.com/users/kid-on-github/repos?sort=created'
+    let api = 'https://api.github.com/users/HHAJ98/repos?sort=created'
     //api = './repos.json'
     let repos = await fetch(api)
     buildPage(await repos.json())
