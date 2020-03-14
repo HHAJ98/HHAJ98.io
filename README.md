@@ -2,7 +2,8 @@ Forked from [Mike Peterson](https://github.com/kid-on-github)'s [kid-on-github.i
 
 Modifications thus far:
 --------
-	- Replaced relevant personal info
-	- Added styling for repos in:
-		- c
-	- Added a simple favicon set generated at [favicon.io](https://favicon.io/favicon-generator/)
+
+- Replaced relevant personal info
+- Added styling for repos in:
+  - C
+- Added a simple favicon set generated at [favicon.io](https://favicon.io/favicon-generator/) 
