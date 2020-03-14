@@ -1,8 +1,8 @@
-This site uses [Github Pages](https://pages.github.com/) and [Github's API](https://developer.github.com/v3/) to display a user's profile details and repository summaries in a responsive web page.
+Forked from [Mike Peterson](https://github.com/kid-on-github)'s [kid-on-github.io](https://kid-on-github.github.io/) project.
 
-This demonstrates applied knowledge of the following:
-
- - HTML, CSS, and Javascript
- - Bootstrap
- - Web APIs
- - Asynchronous Requests with Javascript
+Modifications thus far:
+--------
+	- Replaced relevant personal info
+	- Added styling for repos in:
+		- c
+	- Added a simple favicon set generated at [favicon.io](https://favicon.io/favicon-generator/)
