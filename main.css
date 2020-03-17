@@ -55,6 +55,7 @@ h5, p{
 #profileImg{
     width:100%;
     margin-bottom:10px;
+    border-radius: 50%;
 }
 
 
