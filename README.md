@@ -8,3 +8,5 @@ Modifications thus far:
 - Added styling for repos in:
   - C
 - Added a simple favicon set generated at [favicon.io](https://favicon.io/favicon-generator/) 
+- Styling: 
+  - Rounded image
